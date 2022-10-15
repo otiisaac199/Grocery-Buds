@@ -43,7 +43,7 @@ function App() {
       
       "
       >
-        {alert.show && <Alert {...alert} removeAlert={showAlert} />}
+        {alert.show && <Alert {...alert} />}
         <h3>grocery bud</h3>
         <div className="form-control">
           <input
